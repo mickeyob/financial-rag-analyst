@@ -2,6 +2,7 @@
 
 An end-to-end Retrieval Augmented Generation (RAG) system capable of ingesting complex financial PDF documents (SEC 10-K Filings), understanding table structures, and providing precise, cited answers.
 
+```mermaid
 graph TD
     A[PDF Documents] -->|LlamaParse| B(Markdown Text)
     B -->|Chunking| C{Vector Database}
@@ -14,7 +15,7 @@ graph TD
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style C fill:#bbf,stroke:#333,stroke-width:2px
     style F fill:#bfb,stroke:#333,stroke-width:2px
-*(Note: If you haven't added the image yet, this placeholder will show broken. You can remove this line or add a screenshot of your flow!)*
+```
 
 ## 🚀 Key Differentiators
 Unlike basic "Chat with PDF" tutorials, this project implements **Engineering Rigor**:
@@ -38,4 +39,5 @@ Unlike basic "Chat with PDF" tutorials, this project implements **Engineering Ri
 ```bash
 git clone [https://github.com/mickeyob/financial-rag.git](https://github.com/mickeyob/financial-rag.git)
 cd financial-rag
+
 pip install -r requirements.txt
