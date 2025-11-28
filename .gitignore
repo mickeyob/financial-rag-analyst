@@ -1,0 +1,14 @@
+# Secrets (NEVER UPLOAD THESE)
+.env
+
+# Database & Data (Too heavy for GitHub)
+qdrant_local_data/
+data/
+*.pdf
+
+# Python Cache & Virtual Env
+__pycache__/
+*.pyc
+venv/
+.venv/
+.chainlit/
